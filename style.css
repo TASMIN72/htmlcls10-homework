@@ -1,0 +1,99 @@
+ /* common css start  */
+ *{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+ }
+ body{
+    font-family: 'Open Sans', sans-serif;
+
+ }
+ a{
+     text-decoration: none;
+
+ }
+ ul{
+     list-style-type: none;
+ }
+ .container{
+     width: 1180px;
+     margin: 0 auto;
+
+ }
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ /* common css end  */
+ /* nav section start */
+ nav{
+     background-color: #02918c;
+ }
+ nav> .container> .row{
+     align-items: center;
+
+ }
+ nav .logo{
+     width: 25%;
+ }
+ nav img.logo{
+     display: block;
+ }
+ nav .menu{
+     width: 75%;
+     text-align: right;
+ }
+ nav .menu ul li{
+     display: inline-block;
+     margin: 12px 0;
+ }
+ nav .menu ul li a{
+     display: inline-block;
+     color: #fff;
+     font-size: 16px;
+     font-weight: 800;
+     padding: 10px 25px;
+     text-transform: uppercase;
+     transition: all .3s linear;
+     border-radius: 15px;
+ }
+ nav .menu ul li a:hover{
+     background-color: #cfc91d;
+ }
+ /* nav section end */
+ /* banner section start */
+ #banner{
+     text-align: center;
+     padding: 200px 0;
+    background-image: url(./img/project-10\(A\)-MYFOLIO-Recovered.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ #banner h6{
+     color: #fff;
+     font-size: 30px;
+ }
+ #banner h1{
+     color: #fff;
+     font-size: 68px;
+     letter-spacing: 30px;
+     text-transform: uppercase;
+ }
+ #banner p{
+     color: #fff;
+     font-size: 18px;
+ }
+ #banner img{
+     display: block;
+     padding: 40px 0;
+     margin: 0 auto;
+ }
+ #banner a{
+     font-size: 14px;
+     color: #0b1016;
+     background-color: #cfc91d;
+     padding: 20px 30px;
+     text-transform: uppercase;
+ }
+ /* banner section end */
